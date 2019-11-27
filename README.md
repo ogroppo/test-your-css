@@ -15,3 +15,7 @@ Includes:
 - Download the folder and add your reset.css file to the root
 - preview index.html on your favourite browser
 - Don't forget to style elements' states!
+
+### links
+check out the accessible-reset-css project to get a decent reset.css file
+

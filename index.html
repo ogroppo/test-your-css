@@ -7,15 +7,12 @@
 	</head>
 	<body>
 		<header role="banner">
-			<nav role="navigation">
-				<a href="#">nav link href="#"</a>
-				<a href="">nav link href=""</a>
-				<a href="index.html">link with href="index.html"</a>
+			<nav role="navigation">				
+				<ul>
+					<li><a href="#">nav ul li a</a></li>
+					<li><button type="button">nav ul li button</button></li>
+				</ul>
 			</nav>
-			<details>
-			  <summary>details summary tag</summary>
-			  <p>details p tag</p>
-			</details>
 		</header>
 		<main role="main">
 			<h1>page h1</h1>
@@ -217,7 +214,7 @@
 
 			<hr/>
 			<h2>Tables</h2>
-			<table>
+			<table id="table">
 				<caption>table caption</caption>
 				<colgroup>
 					<col span="2">
@@ -226,20 +223,20 @@
 				<thead>
 					<tr>
 						<th scope="column">th scope="column"</th>
-						<th>th</th> 
-						<th>th</th>
+						<th>thead tr th</th> 
+						<th>thead tr th</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td scope="row">td scope="row"</td>
-						<td>td</td> 
-						<td>td</td>
+						<td>tbody td</td> 
+						<td>td <a href="#table">td link</a></td>
 					</tr>
 					<tr>
 						<td scope="row">td scope="row"</td>
-						<td>td</td> 
-						<td>td</td>
+						<td>td <span>span</span></td> 
+						<td>td <p>paraghraph</p></td>
 					</tr>
 				</tbody>
 				 <tfoot>
@@ -279,7 +276,18 @@
 				<figcaption>figure figcaption</figcaption>
 			</figure>
 
+			<section id="details">
+				<h2>details widget</h2>
+				<details>
+					<summary>details summary tag</summary>
+				  	<p>details p tag <a href="#details">link</a></p>
+				</details>
+			</section>
 
+
+			<aside id="aside">
+				<h2>aside content</h2>
+			</aside>
 		</main>
 		<footer role="contentinfo">
 			
